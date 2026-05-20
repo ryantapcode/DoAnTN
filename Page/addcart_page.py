@@ -10,7 +10,16 @@ class BasePage:
         self.wait = WebDriverWait(driver, timeout)
 
     def open(self, url):
-        self.driver.get(url)
+        try:
+            self.driver.set_page_load_timeout(40)
+            self.driver.get(url)
+            self.driver.maximize_window()
+            time.sleep(2)
+
+        except Exception:
+            self.driver.execute_script("window.stop();")
+            self.driver.maximize_window()
+            time.sleep(2)
 
     def click(self, locator):
         el = self.wait.until(EC.element_to_be_clickable(locator))
@@ -44,7 +53,6 @@ class AddCartPage(BasePage):
         items[0].click()
 
     def increase_quantity(self, quantity):
-        """Click dấu '+' tương ứng số lượng cần thêm"""
         try:
             btn = self.wait.until(EC.element_to_be_clickable(self.INCREASE_BTN))
             for i in range(int(quantity) - 1):  # click (quantity - 1) lần
@@ -67,7 +75,6 @@ class AddCartPage(BasePage):
 
     def view_cart(self):
         self.click(self.VIEW_CART_BTN)
-        time.sleep(2)
 
     def get_cart_quantity(self):
         try:

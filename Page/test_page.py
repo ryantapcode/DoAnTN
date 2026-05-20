@@ -50,13 +50,11 @@ class AddToCartPage:
         self.wait.until(EC.element_to_be_clickable(self.product_link)).click()
 
     def add_to_cart(self):
-        # Nhấn nút “Thêm vào giỏ hàng”
         btn = self.wait.until(EC.element_to_be_clickable(self.add_button))
         self.driver.execute_script("arguments[0].click();", btn)
         time.sleep(3)
 
     def view_cart(self):
-        # Nhấn nút “Xem giỏ hàng” hoặc biểu tượng giỏ hàng
         self.wait.until(EC.element_to_be_clickable(self.view_cart_btn)).click()
 
     def is_cart_page_displayed(self):

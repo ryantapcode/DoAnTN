@@ -1,0 +1,22 @@
+[
+  {
+    "email": "seconhungconcaphaigiacho",
+    "password": "1111",
+    "expected": "Please include an '@' in the email address. 'seconhungconcaphaigiacho' is missing an '@'."
+  },
+  {
+    "email": "fake@abc.com",
+    "password": "",
+    "expected": "Please fill out this field."
+  },
+  {
+    "email": "",
+    "password": "123456",
+    "expected": "Please fill out this field."
+  },
+  {
+    "email": "",
+    "password": "",
+    "expected": "Please fill out this field."
+  }
+]

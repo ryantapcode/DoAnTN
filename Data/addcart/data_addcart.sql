@@ -1,0 +1,10 @@
+CREATE TABLE cart_data (
+    keyword VARCHAR(255),
+    quantity INT
+);
+
+INSERT INTO cart_data (keyword, quantity) VALUES
+('SWE STARFALL BOXY L/S TEE - NAVY/CREAM', 2),
+('SWE ARC SWEATSHORTS - BLACK', 4),
+('SWE WESTFIELD PLAID SHIRT - BROWN', 5),
+('SWE CULTURE BOXY TEE - WHITE', 1);

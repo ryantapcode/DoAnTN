@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loginData>
+    <testcase>
+        <email>seconhungconcaphaigiacho</email>
+        <password>1111</password>
+        <expected>Please include an '@' in the email address. 'seconhungconcaphaigiacho' is missing an '@'.</expected>
+    </testcase>
+    <testcase>
+        <email>fake@abc.com</email>
+        <password></password>
+        <expected>Please fill out this field.</expected>
+    </testcase>
+    <testcase>
+        <email></email>
+        <password>123456</password>
+        <expected>Please fill out this field.</expected>
+    </testcase>
+    <testcase>
+        <email></email>
+        <password></password>
+        <expected>Please fill out this field.</expected>
+    </testcase>
+</loginData>

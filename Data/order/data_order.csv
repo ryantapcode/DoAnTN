@@ -1,0 +1,6 @@
+﻿keyword,name,phone,email,province,address,expected
+SWE CHERRY BOXY TEE - BLACK,,0912345678,namanh@gmail.com,Hà Nội,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",name
+SWE CROSS BOXY TEE - WHITE,bình,,namanh@gmail.com,Hà Nội,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",phone
+SWE KNIT POLO - GRAY,an,0977364522,binhyennhungphutgiay,Hà Nội,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",email
+SWE KNIT POLO - NAVY,an,0977364536,chiecgiuong@gmail.com,,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",province
+SWE SCRIPT JACKET - BEIGE,mai,097523746,test@gmail.com,Hà Nội,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",phone

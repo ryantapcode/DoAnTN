@@ -1,0 +1,47 @@
+[
+  {
+    "keyword": "SWE CHERRY BOXY TEE - BLACK",
+    "name": "",
+    "phone": "0912345678",
+    "email": "namanh@gmail.com",
+    "province": "Hà Nội",
+    "address": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",
+    "expected": "name"
+  },
+  {
+    "keyword": "SWE CROSS BOXY TEE - WHITE",
+    "name": "bình",
+    "phone": "",
+    "email": "namanh@gmail.com",
+    "province": "Hà Nội",
+    "address": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",
+    "expected": "phone"
+  },
+  {
+    "keyword": "SWE KNIT POLO - GRAY",
+    "name": "an",
+    "phone": "0977364522",
+    "email": "binhyennhungphutgiay",
+    "province": "Hà Nội",
+    "address": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",
+    "expected": "email"
+  },
+  {
+    "keyword": "SWE KNIT POLO - NAVY",
+    "name": "an",
+    "phone": "0977364536",
+    "email": "chiecgiuong@gmail.com",
+    "province": "",
+    "address": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",
+    "expected": "province"
+  },
+  {
+    "keyword": "SWE SCRIPT JACKET - BEIGE",
+    "name": "mai",
+    "phone": "097523746",
+    "email": "test@gmail.com",
+    "province": "Hà Nội",
+    "address": "Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội",
+    "expected": "phone"
+  }
+]

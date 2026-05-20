@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkoutData>
+    <testcase>
+        <keyword>SWE CHERRY BOXY TEE - BLACK</keyword>
+        <name></name>
+        <phone>0912345678</phone>
+        <email>namanh@gmail.com</email>
+        <province>Hà Nội</province>
+        <address>Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội</address>
+        <expected>name</expected>
+    </testcase>
+    <testcase>
+        <keyword>SWE CROSS BOXY TEE - WHITE</keyword>
+        <name>bình</name>
+        <phone></phone>
+        <email>namanh@gmail.com</email>
+        <province>Hà Nội</province>
+        <address>Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội</address>
+        <expected>phone</expected>
+    </testcase>
+    <testcase>
+        <keyword>SWE KNIT POLO - GRAY</keyword>
+        <name>an</name>
+        <phone>0977364522</phone>
+        <email>binhyennhungphutgiay</email>
+        <province>Hà Nội</province>
+        <address>Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội</address>
+        <expected>email</expected>
+    </testcase>
+    <testcase>
+        <keyword>SWE KNIT POLO - NAVY</keyword>
+        <name>an</name>
+        <phone>0977364536</phone>
+        <email>chiecgiuong@gmail.com</email>
+        <province></province>
+        <address>Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội</address>
+        <expected>province</expected>
+    </testcase>
+    <testcase>
+        <keyword>SWE SCRIPT JACKET - BEIGE</keyword>
+        <name>mai</name>
+        <phone>097523746</phone>
+        <email>test@gmail.com</email>
+        <province>Hà Nội</province>
+        <address>Thị trấn Xuân Mai, Huyện Chương Mỹ, Hà Nội</address>
+        <expected>phone</expected>
+    </testcase>
+</checkoutData>

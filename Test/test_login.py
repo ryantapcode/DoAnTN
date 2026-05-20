@@ -4,12 +4,16 @@ import pytest
 from Page.login_page import LoginPage
 from Utils.data_reader import get_data
 
+DATA_TYPE = "sql"
 
-DATA_FILE = "Data/data_login.xlsx"
-DATA_TYPE = "xlsx"
-
-
-
+DATA_FILES = {
+    "csv": "Data/login/data_login.csv",
+    "json": "Data/login/data_login.json",
+    "sql": "Data/login/data_login.sql",
+    "xlsx": "Data/login/data_login.xlsx",
+    "xml": "Data/login/data_login.xml"
+}
+DATA_FILE = DATA_FILES[DATA_TYPE]
 test_data = get_data(DATA_FILE, DATA_TYPE)
 all_results = []
 
@@ -19,7 +23,6 @@ class TestLogin:
     @pytest.mark.parametrize("row", test_data)
     def test_login(self, driver, row):
         login_page = LoginPage(driver)
-
         email = row.get("email", "")
         password = row.get("password", "")
         expected_result = row.get("expected", "")
@@ -48,8 +51,8 @@ class TestLogin:
                 actual_result = str(e)
 
         print(f"\n Email: {email}")
-        print(f"🔸 Expected: {expected_result}")
-        print(f"🔸 Actual: {actual_result}")
+        print(f" Expected: {expected_result}")
+        print(f" Actual: {actual_result}")
 
         all_results.append({
             "Time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchData>
+    <testcase>
+        <search>tee</search>
+        <expected>Có 150 sản phẩm cho tìm kiếm</expected>
+    </testcase>
+    <testcase>
+        <search>áo</search>
+        <expected>Không tìm thấy "". Vui lòng kiểm tra chính tả</expected>
+    </testcase>
+    <testcase>
+        <search>123456</search>
+        <expected>Không tìm thấy "123456". Vui lòng kiểm tra chính tả</expected>
+    </testcase>
+    <testcase>
+        <search>#%$@%</search>
+        <expected>Không tìm thấy "#%$@%". Vui lòng kiểm tra chính tả</expected>
+    </testcase>
+    <testcase>
+        <search>tê</search>
+        <expected>Có 150 sản phẩm cho tìm kiếm</expected>
+    </testcase>
+    <testcase>
+        <search>     bag</search>
+        <expected>Có 2 sản phẩm cho tìm kiếm</expected>
+    </testcase>
+    <testcase>
+        <search></search>
+        <expected>Please fill out this field.</expected>
+    </testcase>
+    <testcase>
+        <search>SWE SPIKE BOXY TEE – WHITE</search>
+        <expected>Có 1 sản phẩm cho tìm kiếm</expected>
+    </testcase>
+</searchData>

@@ -1,0 +1,34 @@
+[
+  {
+    "search": "tee",
+    "expected": "Có 150 sản phẩm cho tìm kiếm"
+  },
+  {
+    "search": "áo",
+    "expected": "Không tìm thấy \"\". Vui lòng kiểm tra chính tả"
+  },
+  {
+    "search": "123456",
+    "expected": "Không tìm thấy \"123456\". Vui lòng kiểm tra chính tả"
+  },
+  {
+    "search": "#%$@%",
+    "expected": "Không tìm thấy \"#%$@%\". Vui lòng kiểm tra chính tả"
+  },
+  {
+    "search": "tê",
+    "expected": "Có 150 sản phẩm cho tìm kiếm"
+  },
+  {
+    "search": "     bag",
+    "expected": "Có 2 sản phẩm cho tìm kiếm"
+  },
+  {
+    "search": "",
+    "expected": "Please fill out this field."
+  },
+  {
+    "search": "SWE SPIKE BOXY TEE – WHITE",
+    "expected": "Có 1 sản phẩm cho tìm kiếm"
+  }
+]
