@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e7ab707-0dbb-4db3-bc0f-eaf85613796e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflow/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/addcart/data_addcart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/addcart/data_addcart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/addcart/data_addcart.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/addcart/data_addcart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/login/data_login.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/login/data_login.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/login/data_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/order/data_order.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/order/data_order.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/order/data_order.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/order/data_order.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/search/data_search.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/search/data_search.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/search/data_search.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/search/data_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DoAn4_KTTD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DATN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_addcart.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_addcart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_login.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/login/data_login.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_login.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_login.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_order.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_order.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_search.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_search.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_search.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/data_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/addcart2_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/addcart2_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/addcart_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/addcart_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/order_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/order_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/search_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_addcart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_addcart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_addcart2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_addcart2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/data_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/test_result_writer_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/test_result_writer_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_results_order.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report/test_results_order.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test_results_search.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report/test_results_search.xlsx" afterDir="false" />
-    </list>
+    <list default="true" id="2e7ab707-0dbb-4db3-bc0f-eaf85613796e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
