@@ -1,12 +1,23 @@
 import os
 import pytest
 from datetime import datetime
-
 from Page.search_page import SearchPage
-from Utils.data_reader import read_json
+from Utils.data_reader import get_data
 
-BASE_URL = "https://swe.vn/"
-test_data = read_json("Data/data_search.json")
+DATA_TYPE = "json"
+
+DATA_FILES = {
+    "csv": "Data/search/data_search.csv",
+    "json": "Data/search/data_search.json",
+    "sql": "Data/search/data_search.sql",
+    "xlsx": "Data/search/data_search.xlsx",
+    "xml": "Data/search/data_search.xml"
+}
+
+DATA_FILE = DATA_FILES[DATA_TYPE]
+
+test_data = get_data(DATA_FILE, DATA_TYPE)
+
 
 
 class TestSearch:
